@@ -2,7 +2,7 @@
 import React from "react";
 import BoxHero from "@/components/BoxHero";
 import NameHero from "@/components/NameHero";
-import Boxes from "@/components/Boxes";
+import BoxCollection from "@/components/BoxCollection";
 
 export default function BackgroundBoxesDemo() {
   return (
@@ -11,11 +11,9 @@ export default function BackgroundBoxesDemo() {
         <NameHero />
       </div>
       <BoxHero />
-      <div className="grid grid-cols-4">
-        <Boxes topic="LinkedIn" />
-        <Boxes topic="GitHub" />
-        <Boxes topic="Resume" />
-        <Boxes topic="Projects" />
+
+      <div>
+        <BoxCollection />
       </div>
     </div>
   );

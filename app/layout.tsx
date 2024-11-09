@@ -28,14 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen max-w-6xl gradient-dashed-border mx-auto`}
       >
         <nav>
           <Navbar />
         </nav>
-        <div className="max-w-6xl w-full mx-auto  gradient-dashed-border">
-          {children}
-        </div>
+        <div className="w-full ">{children}</div>
       </body>
     </html>
   );
