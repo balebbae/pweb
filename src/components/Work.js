@@ -99,7 +99,7 @@ const ProjectItem = ({
         onMouseLeave={handleMouseLeave}
         className={`${index === 0 ? 'mt-4 h-auto' : 'h-0'} thumbnail pointer-events-auto relative block aspect-[3/2] w-full origin-top overflow-hidden rounded-[16px] bg-secondary`}
       >
-        {project?.media && (
+        {project.media && (
           <Image
             src={project.media}
             alt='bride and groom'

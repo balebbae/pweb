@@ -33,29 +33,24 @@
   "work": {
     "projects": [
       {
-        "title": "Projects",
-        "url": "",
-        "media": "/work.png"
-      },
-      {
         "title": "RESA",
         "url": "",
-        "media": "/work.png"
+        "media": "/resa.png"
       },
       {
         "title": "Ebby",
         "url": "",
-        "media": "/work.png"
+        "media": "/ebby.png"
       },
       {
         "title": "Fluently",
         "url": "",
-        "media": "/work.png"
+        "media": "/fluently.png"
       },
       {
         "title": "Aqua Sentry",
         "url": "",
-        "media": "/work.png"
+        "media": "/aquasentry.png"
       }
     ],
     "linkIcon": "/icons/arrow-icon-black.svg"
@@ -68,7 +63,7 @@
         "url": "https://www.LinkedIn.com/in/baecal000/"
       },
       {
-        "title": "Instagram",
+        "title": "Resume",
         "url": "https://www.instagram.com/lilcoderman/"
       },
       {
